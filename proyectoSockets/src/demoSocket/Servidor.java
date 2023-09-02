@@ -11,7 +11,6 @@ public class Servidor {
 		Socket sc = null;
 		DataInputStream in;
 		DataOutputStream out;
-		
 		final int PUERTO = 2020;
 		
 		try {
