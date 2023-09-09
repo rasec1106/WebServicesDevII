@@ -1,12 +1,12 @@
 package myThreads;
 
-public class myThread extends Thread {
+public class MyThread extends Thread {
 	// Constructor
-	public myThread(String name) {
+	public MyThread(String name) {
 		super(name);
 	}
 	
-	// "run" method -> where we code the process it will be doing
+	// "run" method -> where we code the process of the thread
 	public void run() {
 		for(int i=1;i<=10;i++) {
 			System.out.println(i+" "+getName());
