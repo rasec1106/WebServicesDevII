@@ -38,6 +38,7 @@ public class Serial1 {
 			try {
 				if(fos != null) fos.close();
 				if(out != null) out.close();
+				System.out.println("--- FILE CREATED SUCCESFULLY ---");
 			}catch (IOException e) {
 				System.out.println("3 - "+e.getMessage());
 			}
