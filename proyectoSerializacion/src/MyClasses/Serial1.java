@@ -30,16 +30,16 @@ public class Serial1 {
 			p = new Person("66725642", "Luis Suarez", 27);
 			out.writeObject(p);
 			
-		}catch (FileNotFoundException e) {
+		} catch (FileNotFoundException e) {
 			System.out.println("1 - "+e.getMessage());
-		}catch (IOException e) {
+		} catch (IOException e) {
 			System.out.println("2 - "+e.getMessage());
-		}finally {
+		} finally {
 			try {
 				if(fos != null) fos.close();
 				if(out != null) out.close();
 				System.out.println("--- FILE CREATED SUCCESFULLY ---");
-			}catch (IOException e) {
+			} catch (IOException e) {
 				System.out.println("3 - "+e.getMessage());
 			}
 		}
