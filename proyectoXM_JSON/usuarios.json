@@ -1,0 +1,8 @@
+{
+    "Usuarios":[
+        {"id":"1","nombre":"mathias","telefono":"912345678","email":"mgarcia@mail.com"},
+        {"id":"2","nombre":"lorena","telefono":"985274136","email":"lrivera@hotmail.com"},
+        {"id":"3","nombre":"estefania","telefono":"975315982","email":"ellatas@yahoo.es"},
+        {"id":"4","nombre":"joel","telefono":"911122233","email":"jobregon@yahoo.com"}
+    ]
+}

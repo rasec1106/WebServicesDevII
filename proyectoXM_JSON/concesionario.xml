@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<concesionario>
+	<coches>
+		<coche>
+			<matricula>ABC-123</matricula>
+			<marca>TOYOTA</marca>
+			<precio>32000</precio>
+		</coche>
+		<coche>
+			<matricula>XYZ-456</matricula>
+			<marca>NISSAN</marca>
+			<precio>30000</precio>
+		</coche>
+		<coche>
+			<matricula>CIB-987</matricula>
+			<marca>SUBARU</marca>
+			<precio>25000</precio>
+		</coche>
+	</coches>
+</concesionario>
