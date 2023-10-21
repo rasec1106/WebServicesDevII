@@ -19,6 +19,7 @@ import java.awt.Color;
 
 public class FrmRace extends JFrame {
 
+	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 	private JProgressBar progressBar01;
 	private JProgressBar progressBar02;
